@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Weather from "./Weather";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <Weather defaultCity="Guelph" />
+        <footer>
+          This project was coded by{" "}
+          <a href="https://www.shecodes.io/" target="_blank" rel="noreferrer">
+            charity and is
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/mike-charity/reactweather"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open-sourced on Github
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
