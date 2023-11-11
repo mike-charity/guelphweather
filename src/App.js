@@ -9,14 +9,18 @@ function App() {
         <Weather defaultCity="Guelph" />
         <footer>
           This project was coded by{" "}
-          <a href="https://www.shecodes.io/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.shecodes.io/"
+            target="_blank"
+            rel=" noopener noreferrer"
+          >
             charity and is
           </a>{" "}
           and is{" "}
           <a
             href="https://github.com/mike-charity/guelphweather"
             target="_blank"
-            rel="noreferrer"
+            rel=" noopener noreferrer"
           >
             open-sourced on Github
           </a>
