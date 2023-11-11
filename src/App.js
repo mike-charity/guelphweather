@@ -14,7 +14,7 @@ function App() {
           </a>{" "}
           and is{" "}
           <a
-            href="https://github.com/mike-charity/reactweather"
+            href="https://github.com/mike-charity/guelphweather"
             target="_blank"
             rel="noreferrer"
           >
